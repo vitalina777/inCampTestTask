@@ -1,7 +1,13 @@
 package application1;
 
 public class Knowledge1 {
+    private int level;
+
     public Knowledge1(int level) {
-        //TODO: Implementation is needed
+        this.level = level;
+    }
+
+    public int getLevel() {
+        return level;
     }
 }
